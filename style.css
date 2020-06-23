@@ -1,0 +1,304 @@
+
+/* fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Noto+Sans:400,700|Noto+Serif');
+
+/* -------  Structure ------- */
+header nav {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin: 0px;
+  background-color: black;
+}
+header nav ul {
+  font-family: 'Montserrat';
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  align-self: center;
+  justify-content: center;
+  padding-bottom: 0;
+}
+header nav ul li {
+  list-style-type: none;
+}
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 20px 0 0;
+}
+header nav ul li a:hover {
+  
+  color: #bdbdbd;
+}
+
+body {
+	background-image:url("images/sun.gif");
+  margin: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align:center;
+  background-color: #000;
+  background-attachment: fixed;
+  width: 100%;
+
+}
+
+
+footer {
+	background-image:url("images/swirl.jpg");
+  height: 100px;
+	background-color: #000;
+	background-position: center;
+  text-align:center center;
+  background-size: cover;
+  margin: 0px;
+  
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+main h1 {
+	font-family: "Dancing Script", cursive;
+	color: #f0eee9;
+	margin: 0px;
+	font-size: 70px;
+	text-align: center;
+  padding-top: 200px;
+  width: auto;
+} 
+
+header h2 {
+	font-family: "Dancing Script", cursive;
+	color: #e3e1dc;
+	margin: 0px;
+	padding-top: 16px;
+  padding-bottom: 250px;
+	font-size: 33px;
+	text-align: center;
+  align-self: center;
+}
+/*--Contact Photo Circle & Projects----*/
+img {
+  width: 80%;
+  align-self: center;
+  justify-content: center;
+
+ 
+}
+
+.image-circle {
+  border-radius: 50%; 
+}
+/* -------  Type ------- */
+b {
+  color: pink;
+  text-shadow:0 0 10px #cc00ff;
+}
+
+ h1, h2, h3 {
+	color: #fff9c2;
+  font-family: 'Dancing Script', cursive;
+  
+  
+}
+
+h1 { font-size: 50px;}
+h2 { font-size: 45px;
+    text-shadow: 0px 0px 30px rgb(0, 0, 0);
+    font-weight: 600;
+    text-decoration: bold;
+}
+h3 { 
+    font-size: 35px;
+    text-shadow: 0px 0px 100px rgb(0, 0, 0);
+    font-weight: 600;
+    text-decoration: bold;
+}
+/*-------list styling---------*/
+p, li {
+	font-family: 'Noto Sans', sans-serif;
+	color: #fff9c2;
+	font-size: 12px;
+	font-weight: 600;
+  line-height: 26px;
+  text-shadow: 0 0px 25px #000000;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+li{
+  text-align: left;
+  padding-left: 45px;
+}
+
+ul, ol {
+ text-align: center;
+ align-self: center;
+}
+ul li {
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+
+}
+/*-----links--------*/
+a {
+	font-weight: 700;
+	text-decoration: none;
+  text-shadow:  0 0 30px #fdfdfd;
+}
+
+a:link { color: #fffb00; }
+a:visited { color: #cc00ff; }
+a:hover { color: #51ff01; }
+a:active { color: #403933; }
+
+
+a:hover {
+	text-decoration: bold;	
+}
+
+footer p {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+	color: #fff;
+	text-align: center center;
+  padding-top: 15px;
+  align-self: center;
+  margin: 0px;
+  
+}
+footer a {
+  
+  padding-top: 5px;
+  font-size: 15px;
+  color: white;
+  float: center;
+}
+
+
+/* -------  Elements ------- */
+
+img, iframe { border-radius: 8px;} 
+
+iframe { 
+  border: 1px solid #403933;
+  width: cover;
+  margin: 0px;
+}
+/*-----map size-------*/
+.wrapper iframe {
+  width: 70%;
+}
+/*---line break-------*/
+hr { height: 50px;
+     background-position: center;
+     background-image: url("images/swirl.jpg");
+     background-size: cover;
+     margin-top: 50px;
+     margin-bottom: 50px;
+     box-shadow: 0px 0px 10px 5px #e28800c0; 
+}
+    
+/* -------  Layout ------- */ 
+       
+.hero {
+    background-image: url('images/ron-beach.JPG');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    box-shadow: 0px 0px 75px 55px #000 inset;
+    margin: 0px;
+}
+
+.hero h1 {
+	font-size: 60px;
+	color: white;
+	text-shadow: 0 0 10px #000;
+  margin-bottom: 20px;
+}
+
+.hero h2 {
+	font-size: 25px;
+	color: white;
+	background: #46ff0370;
+	display:inline;
+  padding: 3px 10px;
+  border-radius: 8px;
+}
+
+.bg-accent {
+      background-image: url("images/swirl.jpg");
+      background-size: cover;
+      background-position: center center;
+      box-shadow: 0 0 50px 45px #000 inset;
+    
+}
+form{
+  color: #fff9c2;
+  text-shadow: 0px 0px 5px 5px #0000004d;
+  border: #fdfdfd;
+  border-radius: 10px;
+  background-color: #ff99009a;
+  display: flex;
+  flex-flow: column wrap;
+  width: auto;
+  justify-content: center;
+  align-self: center;
+  margin: 12px;
+  box-shadow: 0px 0px 5px 5px #0000008e; 
+  max-width: 85%;
+}
+label{
+  display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+input{
+  max-width: 80%;
+}
+form label{
+  padding: 10px;
+  justify-content: center;
+  align-self: center;
+  max-width: 80%;
+  text-align: center;
+  flex-direction: column;
+}
+textarea {
+  height:100px;
+  max-width: 80%;
+  max-height: 200px;
+}
+
+@media all and (min-width: 800px) {
+  img {
+    width: 50%;
+  }
+  p, li, ul, ol {
+    line-height: 3rem;
+    font-size: 30px;
+    
+  }
+
+  h2 {
+    font-size: 60px;
+  }
+  textarea{
+    width: 60%;
+    height:150px;
+  }
+}
